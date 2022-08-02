@@ -46,7 +46,7 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche in den angegebenen
 
 5. das Terminal in dem Ordner öffnen, welcher aus der zip-Datei entpackt wurde und den lokalen Webserver starten. Unter Linux lautet das Kommando: *php -S localhost:8000*
 
-6. einen beliebigen Browser öffnen und in die Adressleiste folgendes eingeben: Unter Linux ist dies *ht<span>tp://</span>localhost:8000/home.php*.
+6. einen beliebigen Browser öffnen und in die Adressleiste folgendes eingeben: unter Linux ist dies *ht<span>tp://</span>localhost:8000/home.php*
 
 <br>
 <br>
@@ -54,7 +54,7 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche in den angegebenen
 
 **3. Bedienung**
 
-- Unter der Überschrift *YT Rankings* befindet sich die Navigationsleiste
+- Unter der Überschrift *YT Rankings* befindet sich die Navigationsleiste.
 - Klickt man in der Navigation auf *Channel*, so ergibt sich die Möglichkeit die ID des gewünschten Channels anzugeben. Dabei ist jedoch zu beachten, dass die Channel-ID folgendes ist: ht<span>tp://</span>ww<span>w.youtube.com</span>/channel/**UCSLzUlTiImWtWEFPmtogs6w**. Derzeit werden jedoch nur Videos des YouTube-Kanal *The MAUTICAST* gefiltert, egal welche Channel-ID eingegeben wird.
-- Im Bereich *Keywords* können Keywords hinzugefügt oder durch das Klicken auf *X* gelöscht werden
+- Im Bereich *Keywords* können Keywords hinzugefügt oder durch das Klicken auf *X* gelöscht werden.
 - Auf der Seite *Home* werden alle, in den Top 50, gefundenen Videos zu den entsprechenden Keywords mit Platzierung angezeigt. Mit dem Klicken auf Refresh werden nun neu hinzugefügte Keywords angezeigt. Falls am aktuellen Tag noch kein Refresh durchgeführt wurde, werden mit dem Klick auf den Refresh-Button die Listen aktualisiert.
