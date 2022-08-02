@@ -40,7 +40,7 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche in den angegebenen
 
 2. Verwaltungswerkzeug öffnen
 
-3. aus dem Verwaltungswerkzeug heraus die skript.sql-Datei, welche sich in dem entpackten Ordner befindet, wo die zip-Datei entpackt wurde, öffnen und komplett ausführen
+3. aus dem Verwaltungswerkzeug heraus die skript.sql-Datei, welche sich in dem entpackten Ordner befindet, öffnen und komplett ausführen
 
 4. die Datei functions.php öffnen und bei *$dbUsername*, *$dbPasswort* und *$dbHost* jeweils in die Anführungszeichen die Daten eingeben, welche verwendet wurden, um sich beim Verwaltungswerkzeug anzumelden
 
