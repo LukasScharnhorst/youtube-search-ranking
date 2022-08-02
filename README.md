@@ -1,9 +1,20 @@
 # youtube-search-ranking
-listing all videos from a channel to selected keywords
 
 
 
-Voraussetzung:
+Funktionsweise
+
+Text
+
+
+
+
+
+Installationsanleitung
+
+
+
+Voraussetzung
 
     • lokaler Webserver
     • maximal PHP-Version 7.4.x aktiviert haben
@@ -24,3 +35,9 @@ Anleitung
 5. das Terminal in dem Ordner öffnen, in welchem die zip-Datei entpackt wurde und den lokalen Webserver starten. Unter Linux lautet das Kommando: php -S localhost:8000
 
 6. einen beliebigen Browser öffnen und in die URL-Zeile folgendes eingeben: Unter Linux ist dies http://localhost:8000/home.php
+
+
+
+
+
+Bedienung
