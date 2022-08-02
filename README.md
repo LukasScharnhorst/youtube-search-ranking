@@ -36,7 +36,7 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche in den angegebenen
 
 **ii. Anleitung**
 
-1. Die zip-Datei, welche den Code enthält, herunterladen und irgendwo auf dem System entpacken. Dazu einfach weiter oben auf den grünen Button klicken, auf welchem *Code* steht und *Download zip* auswählen
+1. Die zip-Datei, welche den Code enthält, herunterladen und irgendwo auf dem System entpacken. Dazu einfach weiter oben auf den grünen Button klicken, auf welchem *Code* steht und *Download ZIP* auswählen
 
 2. Verwaltungswerkzeug öffnen
 
