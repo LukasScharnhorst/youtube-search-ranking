@@ -46,7 +46,7 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche in den angegebenen
 
 5. das Terminal in dem Ordner öffnen, welcher aus der zip-Datei entpackt wurde und den lokalen Webserver starten. Unter Linux lautet das Kommando: *php -S localhost:8000*
 
-6. einen beliebigen Browser öffnen und in die URL-Zeile folgendes eingeben: Unter Linux ist dies *ht<span>tp://</span>localhost:8000/home.php*.
+6. einen beliebigen Browser öffnen und in die Adressleiste folgendes eingeben: Unter Linux ist dies *ht<span>tp://</span>localhost:8000/home.php*.
 
 <br>
 <br>
