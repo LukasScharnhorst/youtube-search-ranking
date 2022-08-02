@@ -57,4 +57,4 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche in den angegebenen
 - Unter der Überschrift *YT Rankings* befindet sich die Navigationsleiste
 - Klickt man in der Navigation auf *Channel*, so ergibt sich die Möglichkeit die ID des gewünschten Channels anzugeben. Dabei ist jedoch zu beachten, dass die Channel-ID folgendes ist: ht<span>tp://</span>ww<span>w.youtube.com</span>/channel/**UCSLzUlTiImWtWEFPmtogs6w**
 - Im Bereich *Keywords* können Keywords hinzugefügt oder, durch das Klicken auf *X* gelöscht werden
-- 
+- Auf der Seite *Home* werden alle, in den Top 50, gefundenen Videos zu den entsprechenden Keywords mit Platzierung angezeigt. Mit dem Klicken auf Refresh koönnen entweder neu hinzugefügte Keywords angezeigt werden, oder, falls am aktuellen Tag noch kein Refresh durchgeführt wurde, die Listen aktualisiert werden
