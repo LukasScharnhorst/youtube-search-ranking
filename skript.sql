@@ -10,8 +10,6 @@ create table kanal (
 	id varchar(255) primary key not null
 );
 
-delete from kanal;
-
 
 
 drop table video;
@@ -58,14 +56,13 @@ create table refresh (
 );
 
 
-select * from kanal;
 
-select * from video;
+-- select * from kanal;
 
-select * from keyword;
+-- select * from video;
 
-select * from keyword_video;
+-- select * from keyword;
 
-select * from refresh;
+-- select * from keyword_video;
 
-UPDATE `lsp_2_youtube_api`.`keyword_video` SET `ranking_heute` = null WHERE (`keyword_name` = 'Mautic Podcast') and (`video_id` = 'Em8s8jeLx4c');
+-- select * from refresh;
