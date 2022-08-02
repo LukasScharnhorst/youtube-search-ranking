@@ -16,7 +16,7 @@
 
 **1. Funktionsweise**
 
-Für einen Kanal werden alle seine Videos aufgelistet, welche in den angegebenen Keywords jeweils zum aktuellen Zeitpunkt in den Top 50 sind. Die Keywords werden absteigend aufgelistet und die dazugehörigen Videos nach der heutigen Platzierung angezeigt.
+Für einen Kanal werden alle seine Videos aufgelistet, welche in den angegebenen Keywords jeweils zum aktuellen Zeitpunkt in den Top 50 sind. Die Keywords werden alphabetisch absteigend aufgelistet und die dazugehörigen Videos nach der heutigen Platzierung angezeigt.
 
 <br>
 <br>
