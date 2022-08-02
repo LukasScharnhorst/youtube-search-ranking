@@ -2,27 +2,39 @@
 
 
 
-Funktionsweise
+**Inhaltsverzeichnis**
 
-Text
+1. Funktionsweise
+2. Installationsanleitung
+    1. Voraussetzung
+    2. Anleitung
+3. Bedienung
 
+<br>
+<br>
+<br>
 
+**1. Funktionsweise**
 
+Für einen Kanal werden alle seine Videos aufgelistet, welche in den angegebenen Keywords jeweils zum aktuellen Zeitpunkt in den Top 50 sind. Die Keywords werden absteigend aufgelistet und die dazugehörigen Videos nach der heutigen Platzierung angezeigt.
 
+<br>
+<br>
+<br>
 
-Installationsanleitung
+**2. Installationsanleitung**
 
+<br>
 
+**i. Voraussetzung**
 
-Voraussetzung
+- lokaler Webserver
+- maximal PHP-Version 7.4.x aktiviert haben
+- Verwaltungswerkzeug für Datenbank (z.B. MySQL Workbench)
 
-    • lokaler Webserver
-    • maximal PHP-Version 7.4.x aktiviert haben
-    • Verwaltungswerkzeug für Datenbanken (z.B. MySQL Workbench)
+<br>
 
-
-
-Anleitung
+**ii. Anleitung**
 
 1. Die zip-Datei, welche den Code enthält, herunterladen und irgendwo auf dem System entpacken.
 
@@ -36,8 +48,13 @@ Anleitung
 
 6. einen beliebigen Browser öffnen und in die URL-Zeile folgendes eingeben: Unter Linux ist dies http://localhost:8000/home.php
 
+<br>
+<br>
+<br>
 
+**3. Bedienung**
 
-
-
-Bedienung
+- Unter der Überschrift *YT Rankings* befindet sich die Navigationsleiste
+- Klickt man in der Navigation auf *Channel*, so ergibt sich die Möglichkeit die ID des gewünschten Channels anzugeben. Dabei ist jedoch zu beachten, dass die Channel-ID folgendes ist: ht<span>tp://</span>ww<span>w.youtube.com</span>/channel/**UCSLzUlTiImWtWEFPmtogs6w**
+- Im Bereich *Keywords* können Keywords hinzugefügt oder, durch das Klicken auf *X* gelöscht werden
+- 
