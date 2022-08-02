@@ -4,9 +4,37 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.navigation {
+    border-top: 1px silver solid;
+    border-bottom: 1px silver solid;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+}
+
+.current_page {
+    font-weight: bold;
+}
+
+button {
+    border: silver solid 1px;
+    padding-top: 3px;
+    padding-right: 10px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+}
+
+
+
+/* hinweis.php */
+
 /*dass die Thumbnail-Spalten beim Keyword Mautic Event Tracking breiter sind,
 liegt daran, dass Mautic Event Tracking so ein langes Wort ist*/
-
 /*#hinweis {
     position: fixed;
     display: none;
@@ -89,6 +117,38 @@ liegt daran, dass Mautic Event Tracking so ein langes Wort ist*/
     margin-left: 5px;
 }
 
+#keywords_add_button {
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+#keywords_ausgabe {
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+#delete_keyword {
+    margin-top: -15px;
+}
+
+#keywords_delete_button {
+    float: right;
+    clear: right;
+    margin-right: 20px;
+    border: none;
+    padding: 0px;
+    background-color: white;
+}
+
+#keywords_delete_button:hover {
+    background-color: white;
+}
+
+
+
+/* home.php */
+
 .gruen {
     color: green;
 }
@@ -112,56 +172,8 @@ liegt daran, dass Mautic Event Tracking so ein langes Wort ist*/
     padding-bottom: 15px;
 }
 
-a:link, a:visited {
-    text-decoration: none;
-    color: black;
-}
-
 #videolink {
     color: #ff5900;
-}
-
-.current_page {
-    font-weight: bold;
-}
-
-.navigation {
-    border-top: 1px silver solid;
-    border-bottom: 1px silver solid;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-}
-
-#channel_form {
-    margin-top: 30px;
-    margin-left: 15px;
-}
-
-#channel_form > input {
-    float: right;
-    margin-right: 40px;
-}
-
-#channel_form > button {
-    margin-top: 10px;
-    margin-right: 0px;
-    margin-bottom: 80px;
-}
-
-#keywords_add_button {
-    margin-top: 20px;
-    margin-left: 15px;
-    margin-bottom: 10px;
-}
-
-#keywords_ausgabe {
-    margin-bottom: 20px;
-    margin-left: 15px;
-}
-
-#delete_keyword {
-    margin-top: -15px;
 }
 
 #updaten {
@@ -207,23 +219,22 @@ a:link, a:visited {
     font-weight: normal;
 }
 
-button {
-    border: silver solid 1px;
-    padding-top: 3px;
-    padding-right: 10px;
-    padding-bottom: 3px;
-    padding-left: 10px;
+
+
+/* channel.php */
+
+#channel_form {
+    margin-top: 30px;
+    margin-left: 15px;
 }
 
-#keywords_delete_button {
+#channel_form > input {
     float: right;
-    clear: right;
-    margin-right: 20px;
-    border: none;
-    padding: 0px;
-    background-color: white;
+    margin-right: 40px;
 }
 
-#keywords_delete_button:hover {
-    background-color: white;
+#channel_form > button {
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 80px;
 }
