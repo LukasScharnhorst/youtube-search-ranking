@@ -1,10 +1,10 @@
-create database lsp_2_youtube_api;
+-- create database lsp_2_youtube_api;
 
 use lsp_2_youtube_api;
 
 
 
-drop table kanal;
+drop table if exists kanal;
 
 create table kanal (
 	id varchar(255) primary key not null
@@ -12,7 +12,7 @@ create table kanal (
 
 
 
-drop table video;
+drop table if exists video;
 
 create table video (
 	id varchar(255) primary key not null,
@@ -24,7 +24,7 @@ create table video (
 
 
 
-drop table keyword;
+drop table if exists keyword;
 
 create table keyword (
 	name varchar(255) primary key not null,
@@ -33,7 +33,7 @@ create table keyword (
 
 
 
-drop table keyword_video;
+drop table if exists keyword_video;
 
 create table keyword_video (
 	keyword_name varchar(255) not null,
@@ -48,7 +48,7 @@ create table keyword_video (
 
 
 
-drop table refresh;
+drop table if exists refresh;
 
 create table refresh (
 	id int primary key not null,
