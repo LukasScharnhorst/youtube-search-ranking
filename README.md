@@ -53,7 +53,7 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen
 
 4. die Datei functions.php öffnen und bei *$dbUsername*, *$dbPasswort* und *$dbHost* jeweils zwischen die Anführungszeichen die Daten eingeben, welche verwendet wurden, um sich beim Verwaltungswerkzeug anzumelden
 
-5. das Terminal in dem Ordner öffnen, welcher aus der zip-Datei entpackt wurde und den lokalen Webserver starten. Unter Linux und macOS lautet das Kommando: *php -S localhost:8000*
+5. das Terminal aus dem Ordner heraus öffnen, welcher aus der zip-Datei entpackt wurde und den lokalen Webserver starten. Unter Linux und macOS lautet das Kommando: *php -S localhost:8000*
 
 6. einen beliebigen Browser öffnen und in die Adressleiste folgendes eingeben: unter Linux und macOS ist dies *ht<span>tp://</span>localhost:8000/home.php*
 
