@@ -51,7 +51,7 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen
 
 2. Die skript.sql-Datei, welche sich in dem entpackten Ordner befindet, komplett ausführen
 
-3. die Datei functions.php öffnen und bei *$dbUsername*, *$dbPasswort* und *$dbHost* jeweils zwischen die Anführungszeichen die Daten eingeben, welche verwendet wurden, um sich beim Verwaltungswerkzeug anzumelden
+3. die Datei functions.php öffnen und bei *$dbUsername*, *$dbPasswort* und *$dbHost* jeweils zwischen die Anführungszeichen die Daten eingeben, welche verwendet wurden, um sich beim Datenbankmanagementsystem anzumelden
 
 4. das Terminal aus dem Ordner heraus öffnen, welcher aus der zip-Datei entpackt wurde und den von PHP bereitgestellten lokalen Webserver starten. Unter Linux und macOS lautet das Kommando: *php -S localhost:8000*
 
