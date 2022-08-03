@@ -4,9 +4,9 @@
 
         mysqli_report(MYSQLI_REPORT_STRICT); // mysqli soll Exceptions werfen
 
-        $dbUsername = "root";
-        $dbPasswort = "Bayer&1998";
-        $dbHost = "localhost";
+        $dbUsername = "";
+        $dbPasswort = "";
+        $dbHost = "";
         $dbName = "lsp_2_youtube_api";
 
         try {
