@@ -39,13 +39,15 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen
 
 - der von PHP lokal mitgelieferte Webserver
 - maximal PHP-Version 7.4.x aktiviert haben
-- eine Möglichkeit sql_Code auszuführen
+- eine Möglichkeit sql-Code auszuführen
 
 <br>
 
 **ii. Anleitung**
 
 1. Die zip-Datei, welche den Code enthält, herunterladen und irgendwo auf dem System entpacken. Dazu einfach weiter oben auf den grünen Button klicken, auf welchem *Code* steht und *Download ZIP* auswählen
+
+2. eine Datenbank namens lsp_2_youtube_api erstellen. Kommando: *create database lsp_2_youtube_api;*
 
 2. Die skript.sql-Datei, welche sich in dem entpackten Ordner befindet, komplett ausführen
 
