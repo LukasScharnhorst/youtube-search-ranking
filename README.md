@@ -25,7 +25,7 @@ Als Zielgruppe werden die Personen betrachtet, welche erfahren wollen, wie sich 
 
 **2. Funktionsweise**
 
-Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen Suchbegriffen jeweils zum aktuellen Zeitpunkt in den Top 50 sind. Die Suchbegriffe werden alphabetisch absteigend aufgelistet und die dazugehörigen Videos nach der heutigen Platzierung angezeigt. Mit dem Wort *Suchbegriff* ist genau das gemeint, was man auch auf YouTube selbst in die Suchleiste eigeben würde.
+Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen Suchbegriffen jeweils zum aktuellen Zeitpunkt in den Top 50 sind. Die Suchbegriffe werden alphabetisch absteigend aufgelistet und die dazugehörigen Videos nach der heutigen Platzierung angezeigt. Mit dem Wort *Suchbegriff* ist genau das gemeint, was man auch auf YouTube selbst in die Suchleiste eingeben würde.
 
 <br>
 <br>
