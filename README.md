@@ -38,7 +38,7 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen
 **i. Voraussetzung**
 
 - der von PHP lokal mitgelieferte Webserver
-- maximal PHP-Version 7.4.x aktiviert haben
+- PHP-Version 7.4.x oder niedriger empfohlen
 - eine Möglichkeit sql-Code auszuführen
 
 <br>
