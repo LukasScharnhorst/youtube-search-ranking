@@ -17,7 +17,7 @@
 
 **1. Zielgruppe**
 
-Als Zielgruppe werden die Personen betrachtet, welche erfahren wollen, wie sich die Videos eines YouTube-Kanals in Bezug auf die zum Kanal in Verbindung gebrachten Suchbegriffe vom Ranking her aus täglich verändern.
+Als Zielgruppe werden Personen betrachtet, welche die tägliche Entwicklung der Rankings von Videos in Bezug auf Suchbegriffe interessiert.
 
 <br>
 <br>
@@ -37,9 +37,9 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen
 
 **i. Voraussetzung**
 
-- lokaler Webserver
+- der von PHP lokal mitgelieferte Webserver
 - maximal PHP-Version 7.4.x aktiviert haben
-- Verwaltungswerkzeug für Datenbank (z.B. MySQL Workbench)
+- eine Möglichkeit sql_Code auszuführen
 
 <br>
 
@@ -47,15 +47,13 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen
 
 1. Die zip-Datei, welche den Code enthält, herunterladen und irgendwo auf dem System entpacken. Dazu einfach weiter oben auf den grünen Button klicken, auf welchem *Code* steht und *Download ZIP* auswählen
 
-2. Verwaltungswerkzeug öffnen
+2. Die skript.sql-Datei, welche sich in dem entpackten Ordner befindet, komplett ausführen
 
-3. aus dem Verwaltungswerkzeug heraus die skript.sql-Datei, welche sich in dem entpackten Ordner befindet, öffnen und komplett ausführen
+3. die Datei functions.php öffnen und bei *$dbUsername*, *$dbPasswort* und *$dbHost* jeweils zwischen die Anführungszeichen die Daten eingeben, welche verwendet wurden, um sich beim Verwaltungswerkzeug anzumelden
 
-4. die Datei functions.php öffnen und bei *$dbUsername*, *$dbPasswort* und *$dbHost* jeweils zwischen die Anführungszeichen die Daten eingeben, welche verwendet wurden, um sich beim Verwaltungswerkzeug anzumelden
+4. das Terminal aus dem Ordner heraus öffnen, welcher aus der zip-Datei entpackt wurde und den von PHP bereitgestellten lokalen Webserver starten. Unter Linux und macOS lautet das Kommando: *php -S localhost:8000*
 
-5. das Terminal aus dem Ordner heraus öffnen, welcher aus der zip-Datei entpackt wurde und den lokalen Webserver starten. Unter Linux und macOS lautet das Kommando: *php -S localhost:8000*
-
-6. einen beliebigen Browser öffnen und in die Adressleiste folgendes eingeben: unter Linux und macOS ist dies *ht<span>tp://</span>localhost:8000/home.php*
+5. einen beliebigen Browser öffnen und in die Adressleiste folgendes eingeben: unter Linux und macOS ist dies *http://localhost:8000/home.php*
 
 <br>
 <br>
