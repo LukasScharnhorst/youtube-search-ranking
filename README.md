@@ -17,7 +17,7 @@
 
 **1. Zielgruppe**
 
-Als Zielgruppe werden die Personen betrachtet, welche erfahren wollen, wie sich die Videos eines Kanals in Bezug auf die zum Kanal in Verbindung gebrachten Suchbegriffe vom Ranking her aus verhalten.
+Als Zielgruppe werden die Personen betrachtet, welche erfahren wollen, wie sich die Videos eines Kanals in Bezug auf die zum Kanal in Verbindung gebrachten Suchbegriffe vom Ranking her aus täglich verändern.
 
 <br>
 <br>
