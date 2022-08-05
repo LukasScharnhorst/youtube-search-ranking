@@ -31,7 +31,7 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen
 
 ### i. Voraussetzung
 
-- Apache-Webserver mit PHP und MySQL. Bei einer lokalen Installation gibt es die Möglichkeit die Komponenten als Paket zu downloaden.
+- Apache-Webserver mit PHP und MySQL. Bei einer lokalen Installation gibt es die Möglichkeit die Software gemeinsam zu downloaden.
     - für Windows: XAMPP
     - für Linux: LAMP
     - für MacOS: MAMP
