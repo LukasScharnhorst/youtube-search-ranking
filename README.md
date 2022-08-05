@@ -22,7 +22,7 @@ Als Zielgruppe werden Personen betrachtet, welche die tägliche Entwicklung der 
 
 ## 2. Funktionsweise
 
-Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen Suchbegriffen jeweils zum aktuellen Zeitpunkt in den Top 50 sind. Die Suchbegriffe werden alphabetisch absteigend aufgelistet und die dazugehörigen Videos nach der heutigen Platzierung angezeigt. Mit dem Wort *Suchbegriff* ist genau das gemeint, was man auch auf YouTube selbst in die Suchleiste eingeben würde.
+Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen Suchbegriffen jeweils zum aktuellen Zeitpunkt in den Top 50 sind. Die Suchbegriffe werden alphabetisch absteigend aufgelistet und die dazugehörigen Videos nach der heutigen Platzierung angezeigt. Mit dem Wort "Suchbegriff" ist genau das gemeint, was man auch auf YouTube selbst in die Suchleiste eingeben würde.
 
 
 
@@ -36,18 +36,23 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen
     - für Linux: LAMP
     - für MacOS: MAMP
 - PHP-Version 7.4.x oder niedriger empfohlen
-- bevorzugter MySQL-Editor z.B. MySQL-Workbench, PHPMyAdmin, Seque Ace
+- bevorzugter MySQL-Editor z.B. MySQL-Workbench, PHPMyAdmin, Sequel Ace
 
 
 ### ii. Anleitung
 
 1. Die zip-Datei, welche den Code enthält, herunterladen und irgendwo auf dem System entpacken. [Hier](https://github.com//LukasScharnhorst/youtube-search-ranking/archive/refs/heads/main.zip) klicken zum Download.
 
-2. eine Datenbank namens lsp_2_youtube_api erstellen. Kommando: *create database lsp_2_youtube_api;*
+2. Eine Datenbank namens *lsp_2_youtube_api* erstellen.
+    - Möglichkeit 1: Die Datenbank als SQL-Anfrage mit dem folgenden Kommando erstellen: `create database lsp_2_youtube_api;
+    - Möglichkeit 2: Über den Wizard im MySQL-Editor die Datenbank erstellen
 
-2. Die skript.sql-Datei, welche sich in dem entpackten Ordner befindet, komplett ausführen
+2. Die skript.sql-Datei, welche sich in dem entpackten Ordner befindet, komplett ausführen. Nach der Ausführung sollten sich 5 Tabellen in der Datenbank befinden.
+    - Möglichkeit 1: Über den Wizar des MySQL-Editors die skript.sql-Datei in den Editor laden und ausführen
+    - Möglichkeit 2: Die skript.sql-Datei öffnen und den Inhalt kopieren. Darauf folgend den MySQL-Editor öffnen und das Kopierte in Schreibfläsche des Editors einfügen und alles ausführen
+    - Möglichkeit 3: Über das Terminal die skript.sql-Datei laden und ausführen
 
-3. die Datei functions.php öffnen und bei *$dbUsername*, *$dbPasswort* und *$dbHost* jeweils zwischen die Anführungszeichen die Daten eingeben, welche verwendet werden, um sich beim Datenbankmanagementsystem anzumelden
+3. die Datei functions.php öffnen und bei *$dbUsername*, *$dbPasswort* und *$dbHost* jeweils zwischen die Anführungszeichen die Daten eingeben, welche verwendet werden, um sich beim MySQL-Editor anzumelden
 
 4. das Terminal aus dem Ordner heraus öffnen, welcher aus der zip-Datei entpackt wurde und den von PHP bereitgestellten lokalen Webserver starten. Unter Linux und macOS lautet das Kommando: *php -S localhost:8000*
 
