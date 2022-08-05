@@ -84,9 +84,13 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen
 1. Auf YouTube den gewünschten Kanal aufrufen
 2. Der fett markierte Teil in der URL ist die Channel-ID: ht<span>tp://</span>ww<span>w.youtube.com</span>/channel/**UCSLzUlTiImWtWEFPmtogs6w**
 
-- Keyword hinzufügen
+- Keyword hinzufügen:
 
 ![Keyword hinzufügen 1](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Dokumentation/Bilder/Keyword_hinzufuegen_1.png)
+
+![Keyword hinzufügen 2](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Dokumentation/Bilder/Keyword_hinzufuegen_2.png)
+
+![Keyword hinzufügen 3](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Dokumentation/Bilder/Keyword_hinzufuegen_3.png)
 
 
 - Im Bereich *Keywords* können Keywords hinzugefügt oder durch das Klicken auf *X* gelöscht werden. Ein Keyword ist hierbei jeder beliebige Suchbegriff, wie man ihn auch auf YouTube eingeben würde, um Videos zu finden. Ein Keyword kann auch aus mehreren Wörten bestehen. Möchte man auf einen Schlag mehrere Keywords gleichzeitig hinzufügen, müssen diese durch ein *Komma mit anschließendem Leerzeichen ohne Zeilenumbruch* voneinander separiert werden. Beispielhafte Keywords sind *The Mauticast* oder *Mautic*.
