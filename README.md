@@ -32,11 +32,11 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen
 ### i. Voraussetzung
 
 - Apache-Webserver mit PHP und MySQL. Bei einer lokalen Installation gibt es die Möglichkeit die Software gemeinsam zu downloaden.
-    - für Windows: XAMPP
-    - für Linux: LAMP
-    - für MacOS: MAMP
-- PHP-Version 7.4.x oder niedriger empfohlen
-- bevorzugter MySQL-Editor z.B. MySQL-Workbench, PHPMyAdmin, Sequel Ace
+    - Für Windows: XAMPP
+    - Für Linux: LAMP
+    - Für MacOS: MAMP
+- PHP-Version 7.4.x oder niedriger empfohlen.
+- Bevorzugter MySQL-Editor z.B. MySQL-Workbench, PHPMyAdmin, Sequel Ace.
 
 
 ### ii. Anleitung
