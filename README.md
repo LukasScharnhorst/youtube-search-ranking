@@ -41,7 +41,7 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen
 
 ### ii. Anleitung
 
-1. Die zip-Datei, welche den Code enthält, herunterladen und irgendwo auf dem System entpacken. Dazu einfach weiter oben auf den grünen Button klicken, auf welchem *Code* steht und *Download ZIP* auswählen
+1. Die zip-Datei, welche den Code enthält, herunterladen und irgendwo auf dem System entpacken. Download: https://github.com//LukasScharnhorst/youtube-search-ranking/archive/refs/heads/main.zip
 
 2. eine Datenbank namens lsp_2_youtube_api erstellen. Kommando: *create database lsp_2_youtube_api;*
 
