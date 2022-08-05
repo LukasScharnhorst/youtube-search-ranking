@@ -45,18 +45,23 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen
 
 2. Eine Datenbank namens *lsp_2_youtube_api* erstellen.
     - Möglichkeit 1: Die Datenbank als SQL-Anfrage mit dem folgenden Kommando erstellen: `create database lsp_2_youtube_api;
-    - Möglichkeit 2: Über den Wizard im MySQL-Editor die Datenbank erstellen
+    - Möglichkeit 2: Über den Wizard im MySQL-Editor die Datenbank erstellen.
 
 2. Die skript.sql-Datei, welche sich in dem entpackten Ordner befindet, komplett ausführen. Nach der Ausführung sollten sich 5 Tabellen in der Datenbank befinden.
-    - Möglichkeit 1: Über den Wizar des MySQL-Editors die skript.sql-Datei in den Editor laden und ausführen
-    - Möglichkeit 2: Die skript.sql-Datei öffnen und den Inhalt kopieren. Darauf folgend den MySQL-Editor öffnen und das Kopierte in Schreibfläsche des Editors einfügen und alles ausführen
-    - Möglichkeit 3: Über das Terminal die skript.sql-Datei laden und ausführen
+    - Möglichkeit 1: Über den Wizar des MySQL-Editors die skript.sql-Datei in den Editor laden und ausführen.
+    - Möglichkeit 2: Die skript.sql-Datei öffnen und den Inhalt kopieren. Darauf folgend den MySQL-Editor öffnen und das Kopierte in Schreibfläsche des Editors einfügen und alles ausführen.
+    - Möglichkeit 3: Über das Terminal die skript.sql-Datei laden und ausführen.
 
-3. die Datei functions.php öffnen und bei *$dbUsername*, *$dbPasswort* und *$dbHost* jeweils zwischen die Anführungszeichen die Daten eingeben, welche verwendet werden, um sich beim MySQL-Editor anzumelden
+3. Die Datei functions.php öffnen und bei *$dbUsername*, *$dbPasswort* und *$dbHost* jeweils zwischen die Anführungszeichen die Daten eingeben, welche verwendet werden, um sich beim MySQL-Editor anzumelden.
 
-4. das Terminal aus dem Ordner heraus öffnen, welcher aus der zip-Datei entpackt wurde und den von PHP bereitgestellten lokalen Webserver starten. Unter Linux und macOS lautet das Kommando: *php -S localhost:8000*
+4. das Terminal aus dem Ordner heraus öffnen, welcher aus der zip-Datei entpackt wurde und den von PHP bereitgestellten lokalen Webserver starten. Das Kommando lautet: `php -S localhost:8000`
+    - Möglichkeit 1: Über die GUI in den entpackten Ordner navigieren. Im Ordner selbst einen Rechtsklick ausführen und sinngemäß auswählen 'im Terminal öffnen'
+    - Möglichkeit 2: Über das Terminal in den entpackten Ordner navigieren. Hierzu die Befehle:
+        - `pwd`: Gibt den aktuellen Ordner an.
+        - `cd/Name des Unterordners`: Wechselt in den Unterorder des aktuellen Ordners.
+        - `cd ..`: Wechselt in den Oberordner des aktuellen Ordners.
 
-5. einen beliebigen Browser öffnen und in die Adressleiste folgendes eingeben: unter Linux und macOS ist dies *http://localhost:8000*
+5. Einen beliebigen Browser öffnen und in die Adressleiste folgendes eingeben: *http://localhost:8000*
 
 
 
