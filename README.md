@@ -48,7 +48,7 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen
     - Möglichkeit 2: Über den Wizard im MySQL-Editor die Datenbank erstellen.
 
 2. Die skript.sql-Datei, welche sich in dem entpackten Ordner befindet, komplett ausführen. Nach der Ausführung sollten sich 5 Tabellen in der Datenbank befinden.
-    - Möglichkeit 1: Über den Wizar des MySQL-Editors die skript.sql-Datei in den Editor laden und ausführen.
+    - Möglichkeit 1: Über den Wizard des MySQL-Editors die skript.sql-Datei in den Editor laden und ausführen.
     - Möglichkeit 2: Die skript.sql-Datei öffnen und den Inhalt kopieren. Darauf folgend den MySQL-Editor öffnen und das Kopierte in Schreibfläsche des Editors einfügen und alles ausführen.
     - Möglichkeit 3: Über das Terminal die skript.sql-Datei laden und ausführen.
 
