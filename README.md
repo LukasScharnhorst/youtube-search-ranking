@@ -71,6 +71,11 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen
 
 ![Navigation](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Dokumentation/Bilder/Navigation.png)
 
+- Channel-ID herausfinden:
+
+1. Auf YouTube den gewünschten Kanal aufrufen
+2. Der fett markierte Teil in der URL ist die Channel-ID: ht<span>tp://</span>ww<span>w.youtube.com</span>/channel/**UCSLzUlTiImWtWEFPmtogs6w**
+
 - Channel-ID eingeben und speichern:
 
     -> Derzeit werden jedoch nur Videos des YouTube-Kanals "The MAUTICAST" gefiltert, egal welche Channel-ID eingegeben wird.
@@ -78,11 +83,6 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen
 ![Channel-ID speichern 1](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Dokumentation/Bilder/Channel-ID_speichern_1.png)
 
 ![Channel-ID speichern 2](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Dokumentation/Bilder/Channel-ID_speichern_2.png)
-
-- Channel-ID herausfinden:
-
-1. Auf YouTube den gewünschten Kanal aufrufen
-2. Der fett markierte Teil in der URL ist die Channel-ID: ht<span>tp://</span>ww<span>w.youtube.com</span>/channel/**UCSLzUlTiImWtWEFPmtogs6w**
 
 - Keyword hinzufügen:
 
@@ -100,6 +100,7 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen
 
 ![Keyword löschen](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Dokumentation/Bilder/Keyword_loeschen.png)
 
-
--  Ein Keyword ist hierbei jeder beliebige Suchbegriff, wie man ihn auch auf YouTube eingeben würde, um Videos zu finden. Ein Keyword kann auch aus mehreren Wörten bestehen. Möchte man auf einen Schlag mehrere Keywords gleichzeitig hinzufügen, müssen diese durch ein *Komma mit anschließendem Leerzeichen ohne Zeilenumbruch* voneinander separiert werden. Beispielhafte Keywords sind *The Mauticast* oder *Mautic*.
-- Auf der Seite *Home* werden alle, in den Top 50, gefundenen Videos zu den entsprechenden Keywords mit Platzierung angezeigt. Möchte man gerade hinzugefügte Keywords anzeigen lassen oder gerade gelöschte Keywords nicht mehr anzeigen lassen, muss der Refresh-Button auf der *Home*-Seite gedrückt werden. Falls am aktuellen Tag noch kein Refresh durchgeführt wurde, werden mit dem Klick auf den Refresh-Button die Listen aktualisiert. Wurde am heutigen Tag schon auf den Refresh-Button geklickt, dann werden alle heute schon aktualisierten Videos nicht nochmal aktualisiert.
+- Funktionen des Refresh-Buttons, wenn man diesen drückt:
+    - Anzeigen von Keywords, welche hinzugefügt wurden. Falls auch Videos zu den neuen Keywords gefunden wurden, werden diese ebenfalls angezeigt.
+    - Ausblenden von Keywords, welche gelöscht wurden.  Falls auch Videos zu den gelöschten Keywords gvorhanden waren, werden diese ebenfalls ausgeblendet.
+    - Aktualisierung des Rankings der Videos (pro Tag einmal).
