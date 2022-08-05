@@ -73,7 +73,7 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen
 
 - Channel-ID eingeben:
 
-![Channel-ID eingeben 1](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Dokumentation/Bilder/Channel-ID_eingeben_1.png)
+![Channel-ID speichern 1](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Dokumentation/Bilder/Channel-ID_speichern_1.png)
 
 
 
