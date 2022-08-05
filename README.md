@@ -44,7 +44,7 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen
 1. Die zip-Datei, welche den Code enthält, herunterladen und irgendwo auf dem System entpacken. [Hier](https://github.com//LukasScharnhorst/youtube-search-ranking/archive/refs/heads/main.zip) klicken zum Download.
 
 2. Eine Datenbank namens *lsp_2_youtube_api* erstellen.
-    - Möglichkeit 1: Die Datenbank als SQL-Anfrage mit dem folgenden Kommando erstellen: `create database lsp_2_youtube_api;
+    - Möglichkeit 1: Die Datenbank als SQL-Anfrage mit dem folgenden Kommando erstellen: `create database lsp_2_youtube_api;`
     - Möglichkeit 2: Über den Wizard im MySQL-Editor die Datenbank erstellen.
 
 2. Die skript.sql-Datei, welche sich in dem entpackten Ordner befindet, komplett ausführen. Nach der Ausführung sollten sich 5 Tabellen in der Datenbank befinden.
