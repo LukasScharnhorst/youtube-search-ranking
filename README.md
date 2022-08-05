@@ -68,9 +68,15 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen
 ## 4. Bedienung
 
 - Navigation:
-![Navigation](https://myoctocat.com/assets/images/base-octocat.svg)
 
-- Unter der Überschrift *YT Rankings* befindet sich die Navigationsleiste.
+![Navigation](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Dokumentation/Bilder/Navigation.png)
+
+- Channel-ID eingeben:
+
+
+
+
+
 - Klickt man in der Navigation auf *Channel*, so ergibt sich die Möglichkeit die Channel-ID des gewünschten Kanals anzugeben. Die Channel-ID erhält man, wenn man auf YouTube einen Kanal auswählt und den hintersten Teil der URL kopiert. Die Channel-ID für den YouTube-Kanal *The MAUTICAST* lautet beispielsweise *UCSLzUlTiImWtWEFPmtogs6w* und ist Teil der URL *ht<span>tp://</span>ww<span>w.youtube.com</span>/channel/**UCSLzUlTiImWtWEFPmtogs6w***. Derzeit werden jedoch nur Videos des YouTube-Kanals *The MAUTICAST* gefiltert, egal welche Channel-ID eingegeben wird.
 - Im Bereich *Keywords* können Keywords hinzugefügt oder durch das Klicken auf *X* gelöscht werden. Ein Keyword ist hierbei jeder beliebige Suchbegriff, wie man ihn auch auf YouTube eingeben würde, um Videos zu finden. Ein Keyword kann auch aus mehreren Wörten bestehen. Möchte man auf einen Schlag mehrere Keywords gleichzeitig hinzufügen, müssen diese durch ein *Komma mit anschließendem Leerzeichen ohne Zeilenumbruch* voneinander separiert werden. Beispielhafte Keywords sind *The Mauticast* oder *Mautic*.
 - Auf der Seite *Home* werden alle, in den Top 50, gefundenen Videos zu den entsprechenden Keywords mit Platzierung angezeigt. Möchte man gerade hinzugefügte Keywords anzeigen lassen oder gerade gelöschte Keywords nicht mehr anzeigen lassen, muss der Refresh-Button auf der *Home*-Seite gedrückt werden. Falls am aktuellen Tag noch kein Refresh durchgeführt wurde, werden mit dem Klick auf den Refresh-Button die Listen aktualisiert. Wurde am heutigen Tag schon auf den Refresh-Button geklickt, dann werden alle heute schon aktualisierten Videos nicht nochmal aktualisiert.
