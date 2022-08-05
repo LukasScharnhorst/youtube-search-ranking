@@ -14,29 +14,29 @@
 
 
 
-**1. Zielgruppe**
+## 1. Zielgruppe
 
 Als Zielgruppe werden Personen betrachtet, welche die tägliche Entwicklung der Rankings von Videos in Bezug auf Suchbegriffe interessiert.
 
 
 
-**2. Funktionsweise**
+## 2. Funktionsweise
 
 Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen Suchbegriffen jeweils zum aktuellen Zeitpunkt in den Top 50 sind. Die Suchbegriffe werden alphabetisch absteigend aufgelistet und die dazugehörigen Videos nach der heutigen Platzierung angezeigt. Mit dem Wort *Suchbegriff* ist genau das gemeint, was man auch auf YouTube selbst in die Suchleiste eingeben würde.
 
 
 
-**3. Installationsanleitung**
+## 3. Installationsanleitung
 
 
-**i. Voraussetzung**
+### i. Voraussetzung
 
 - der von PHP lokal mitgelieferte Webserver
 - PHP-Version 7.4.x oder niedriger empfohlen
 - eine Möglichkeit sql-Code auszuführen
 
 
-**ii. Anleitung**
+### ii. Anleitung
 
 1. Die zip-Datei, welche den Code enthält, herunterladen und irgendwo auf dem System entpacken. Dazu einfach weiter oben auf den grünen Button klicken, auf welchem *Code* steht und *Download ZIP* auswählen
 
@@ -52,7 +52,7 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen
 
 
 
-**4. Bedienung**
+## 4. Bedienung
 
 - Unter der Überschrift *YT Rankings* befindet sich die Navigationsleiste.
 - Klickt man in der Navigation auf *Channel*, so ergibt sich die Möglichkeit die Channel-ID des gewünschten Kanals anzugeben. Die Channel-ID erhält man, wenn man auf YouTube einen Kanal auswählt und den hintersten Teil der URL kopiert. Die Channel-ID für den YouTube-Kanal *The MAUTICAST* lautet beispielsweise *UCSLzUlTiImWtWEFPmtogs6w* und ist Teil der URL *ht<span>tp://</span>ww<span>w.youtube.com</span>/channel/**UCSLzUlTiImWtWEFPmtogs6w***. Derzeit werden jedoch nur Videos des YouTube-Kanals *The MAUTICAST* gefiltert, egal welche Channel-ID eingegeben wird.
