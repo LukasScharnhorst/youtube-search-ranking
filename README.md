@@ -75,6 +75,8 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen
 
 ![Channel-ID speichern 1](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Dokumentation/Bilder/Channel-ID_speichern_1.png)
 
+![Channel-ID speichern 2](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Dokumentation/Bilder/Channel-ID_speichern_2.png)
+
 
 
 - Klickt man in der Navigation auf *Channel*, so ergibt sich die Möglichkeit die Channel-ID des gewünschten Kanals anzugeben. Die Channel-ID erhält man, wenn man auf YouTube einen Kanal auswählt und den hintersten Teil der URL kopiert. Die Channel-ID für den YouTube-Kanal *The MAUTICAST* lautet beispielsweise *UCSLzUlTiImWtWEFPmtogs6w* und ist Teil der URL *ht<span>tp://</span>ww<span>w.youtube.com</span>/channel/**UCSLzUlTiImWtWEFPmtogs6w***. Derzeit werden jedoch nur Videos des YouTube-Kanals *The MAUTICAST* gefiltert, egal welche Channel-ID eingegeben wird.
