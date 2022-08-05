@@ -61,7 +61,7 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen
         - `cd/Name des Unterordners`: Wechselt in den Unterorder des aktuellen Ordners.
         - `cd ..`: Wechselt in den Oberordner des aktuellen Ordners.
 
-5. Einen beliebigen Browser öffnen und in die Adressleiste folgendes eingeben: *http://localhost:8000*
+5. Einen beliebigen Browser öffnen und in die Adressleiste folgendes eingeben bzw. auf den Link klicken: http://localhost:8000
 
 
 
