@@ -1,8 +1,8 @@
 # youtube-search-ranking
 
-<br>
 
-**Inhaltsverzeichnis**
+
+## Inhaltsverzeichnis
 
 1. Zielgruppe
 2. Funktionsweise
@@ -11,29 +11,23 @@
     2. Anleitung
 4. Bedienung
 
-<br>
-<br>
-<br>
+
+
 
 **1. Zielgruppe**
 
 Als Zielgruppe werden Personen betrachtet, welche die tägliche Entwicklung der Rankings von Videos in Bezug auf Suchbegriffe interessiert.
 
-<br>
-<br>
-<br>
+
 
 **2. Funktionsweise**
 
 Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen Suchbegriffen jeweils zum aktuellen Zeitpunkt in den Top 50 sind. Die Suchbegriffe werden alphabetisch absteigend aufgelistet und die dazugehörigen Videos nach der heutigen Platzierung angezeigt. Mit dem Wort *Suchbegriff* ist genau das gemeint, was man auch auf YouTube selbst in die Suchleiste eingeben würde.
 
-<br>
-<br>
-<br>
+
 
 **3. Installationsanleitung**
 
-<br>
 
 **i. Voraussetzung**
 
@@ -41,7 +35,6 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen
 - PHP-Version 7.4.x oder niedriger empfohlen
 - eine Möglichkeit sql-Code auszuführen
 
-<br>
 
 **ii. Anleitung**
 
@@ -55,11 +48,9 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen
 
 4. das Terminal aus dem Ordner heraus öffnen, welcher aus der zip-Datei entpackt wurde und den von PHP bereitgestellten lokalen Webserver starten. Unter Linux und macOS lautet das Kommando: *php -S localhost:8000*
 
-5. einen beliebigen Browser öffnen und in die Adressleiste folgendes eingeben: unter Linux und macOS ist dies *http://localhost:8000/home.php*
+5. einen beliebigen Browser öffnen und in die Adressleiste folgendes eingeben: unter Linux und macOS ist dies *http://localhost:8000*
 
-<br>
-<br>
-<br>
+
 
 **4. Bedienung**
 
