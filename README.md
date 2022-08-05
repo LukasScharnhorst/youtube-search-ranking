@@ -52,7 +52,7 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen
     - Möglichkeit 2: Die skript.sql-Datei öffnen und den Inhalt kopieren. Darauf folgend den MySQL-Editor öffnen, das Kopierte in die Schreibfläsche des Editors einfügen und alles ausführen.
     - Möglichkeit 3: Über das Terminal die skript.sql-Datei laden und ausführen.
 
-3. Die Datei functions.php öffnen und bei *$dbUsername*, *$dbPasswort* und *$dbHost* jeweils zwischen die Anführungszeichen die Daten eingeben, welche verwendet werden, um sich beim MySQL-Editor anzumelden.
+3. Die Datei functions.php öffnen und bei `$dbUsername`, `$dbPasswort` und `$dbHost` jeweils zwischen die Anführungszeichen die Daten eingeben, welche verwendet werden, um sich beim MySQL-Editor anzumelden.
 
 4. das Terminal aus dem Ordner heraus öffnen, welcher aus der zip-Datei entpackt wurde und den Webserver starten. Das Kommando lautet: `php -S localhost:8000`
     - Möglichkeit 1: Über die GUI in den entpackten Ordner navigieren. Im Ordner selbst einen Rechtsklick ausführen und sinngemäß auswählen "im Terminal öffnen".
