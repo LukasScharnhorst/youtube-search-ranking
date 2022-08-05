@@ -102,7 +102,7 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen
 
 - Funktionen des Refresh-Buttons, wenn man diesen drückt:
     - Anzeigen von Keywords, welche hinzugefügt wurden. Falls auch Videos zu den neuen Keywords gefunden wurden, werden diese ebenfalls angezeigt.
-    - Ausblenden von Keywords, welche gelöscht wurden.  Falls auch Videos zu den gelöschten Keywords gvorhanden waren, werden diese ebenfalls ausgeblendet.
+    - Ausblenden von Keywords, welche gelöscht wurden.  Falls auch Videos zu den gelöschten Keywords vorhanden waren, werden diese ebenfalls ausgeblendet.
     - Aktualisierung des Rankings der Videos (pro Tag einmal).
 
 ![Refresh Button](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Dokumentation/Bilder/Refresh-Button.png)
