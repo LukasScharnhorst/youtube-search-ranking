@@ -78,7 +78,7 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen
 
 - Channel-ID eingeben und speichern:
 
-    -> Derzeit werden jedoch nur Videos des YouTube-Kanals "The MAUTICAST" gefiltert, egal welche Channel-ID eingegeben wird.
+    -> Derzeit werden jedoch Videos des YouTube-Kanals "The MAUTICAST" gefiltert, egal welche Channel-ID eingegeben wird.
 
 ![Channel-ID speichern 1](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Dokumentation/Bilder/Channel-ID_speichern_1.png)
 
