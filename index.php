@@ -1,6 +1,6 @@
 <?php
 
-    include 'Dokumentation/functions.php';
+    include 'PHP/functions.php';
 
     /* die Uhrzeit und das Datum speichern, während Refresh-Button zuletzt gedrückt wurde */
     function refresh_time_speichern() {
@@ -270,108 +270,199 @@
 
 <!doctype html>
 
-<html>
+<html lang="de">
 
     <head>
-        <link rel="stylesheet" href="Dokumentation/Skripte/style.css" type="text/css">
-        <script type="text/javascript" src="Dokumentation/Skripte/index.js"></script>
+        <link rel="stylesheet" href="CSS/fonts.css" type="text/css">
+        <link rel="stylesheet" href="CSS/style.css" type="text/css">
+        <link rel="stylesheet" href="CSS/default_mobile.css" type="text/css">
+        <link rel="stylesheet" href="CSS/tablet.css" type="text/css">
+        <link rel="stylesheet" href="CSS/desktop.css" type="text/css">
+        <link rel="stylesheet" href="CSS/utility.css" type="text/css">
+        <!--<link rel="stylesheet" href="https://unpkg.com/sanitize.css" type="text/css">-->
+        <script type="text/javascript" src="JavaScript/index.js"></script>
         <title>Home</title>
     </head>
 
-    <body>
+    <body class="u-background-color-white" data-menu="overflow-hidden">
 
-        <div class="rand">
+        <div class="c-header u-background-color-white site-padding--horizontal shadow">
 
-            <h1 id="topic">YT Rankings</h1>
+            <div class="device--max-width-and-center">
 
-            <nav class="navigation">
-                <a href="index.php" class="current_page">Home</a> |
-                <a href="Dokumentation/keywords.php">Keywords</a> |
-                <a href="Dokumentation/channel.php">Channel</a>
-            </nav>
+                <div class="c-header__layout">
+
+                    <p class="u-font-size-xxxl u-font-weight-bold">
+                        <span class="u-color-red">YT</span><span class="u-color-dark-grey u-font-weight-lighter"> Rankings</span>
+                    </p>
+
+                    <button class="u-border-off u-background-color-white c-navigation-icon__layout" data-menu="button">
+                        <div class="line u-background-color-dark-grey"></div>
+                        <div class="line u-background-color-dark-grey"></div>
+                        <div class="line u-background-color-dark-grey"></div>
+                    </button>
+
+                    <div class="c-navigation__tablet-desktop">
+                        <ul class="c-navigation--text-styling c-navigation--text-layout u-font-size-l">
+                            <li class="c-navigation--text-position">
+                                <a href="index.php" class=" link--no-text-decoration u-color-red">Home</a>
+                            </li>
+                            <li class="c-navigation--text-position">
+                                <a href="PHP/keywords.php" class="link--no-text-decoration u-color-dark-grey">Keywords</a>
+                            </li>
+                            <li class="c-navigation--text-position">
+                                <a href="PHP/channel.php" class="link--no-text-decoration u-color-dark-grey">Channel</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="device--max-width-and-center">
+
+            <div class="c-navigation__mobile" data-menu="menu">
+                <ul class="c-navigation--text-styling c-navigation--text-layout u-font-size-xxxl">
+                    <li class="c-navigation--text-position">
+                        <a href="index.php" class="link--no-text-decoration u-color-red">Home</a>
+                    </li>
+                    <li class="c-navigation--text-position">
+                        <a href="PHP/keywords.php" class="link--no-text-decoration u-color-dark-grey">Keywords</a>
+                    </li>
+                    <li class="c-navigation--text-position">
+                        <a href="PHP/channel.php" class="link--no-text-decoration u-color-dark-grey">Channel</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
 
         <?php
 
-            refresh_time_speichern();
+        refresh_time_speichern();
+
+        print '<div class="c-content site-padding--horizontal">';
+
+            print '<div class="device--max-width-and-center">';
+
+                print '<div class="c-content__layout">';
+
+                    print '<div class="c-refresh">';
+                        print '<p class="u-margin-right-1_5rem u-font-size-xl u-font-weight-bold u-color-dark-grey">Last Update: </p>';
+                        print '<p class="u-margin-right-1_5rem u-font-size-l u-color-dark-grey">' . date("d.m.y H:i", strtotime(last_refresh_abfragen())) . '</p>';
+                        print '<form action="index.php" method="post" class="align--right" id="home_form">';
+                            print '<button class="c-button u-margin-top-0_75rem" type="submit" name="pressed" value="not_empty">Refresh</button>';
+                        print '</form>';
+                    print '</div>';
+
+                    $keyword_names = array_keys($ergebnis_array);
+                    for ($i = 0; $i < count($ergebnis_array); $i++) { // pro Durchlauf ein neues Keyword
+
+                        print '<div class="c-keyword u-margin-top-4rem">';
+
+                            print '<div class="c-keyword__name u-margin-bottom-0_75rem">';
+                                print '<p class="u-font-size-xxxl u-font-weight-bold u-color-dark-grey">' . $keyword_names[$i] . '</p>';
+                            print '</div>';
+
+                            $video_id_names = array_keys($ergebnis_array[$keyword_names[$i]]);
+                            $videos_vorhanden = true;
+
+                            if (count($video_id_names) === 0) { // wenn das Keyword keine Videos des Kanals enthält
+                                $videos_vorhanden = false;
+                            }
+
+                            $current_video = 0;
+
+                            do {
+
+                                print '<div class="c-card u-margin-bottom-2rem border--radius shadow padding--vertical padding--horizontal">';
+
+                                    if ($videos_vorhanden) {
+                                        print '<div class="img--center">';
+                                            print'<img src="' . $ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['thumbnail_url'] . '">';
+                                        print '</div>';
+                                        print '<div class="u-margin-right-1_5rem">';
+                                            print '<p class="u-font-size-xl u-font-weight-bold u-color-dark-grey">' . $ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['titel'] . '</p>';
+                                            print '<a href="https://www.youtube.com/watch?v=' . $video_id_names[$current_video] . '" target="_blank" id="videolink"><button class="c-button u-margin-top-0_75rem">Zum Video</button></a>';
+                                        print '</div>';
+                                    } else {
+                                        print '<p class="u-font-size-xl u-font-weight-bold u-color-dark-grey">' . "No Ranking" . '</p>';
+                                    }
+
+                                    print '<div class="c-ranking">';
+
+                                        print '<div class="c-ranking__today">';
+
+                                            print '<p class="u-font-size-l u-color-dark-grey">Today</p>';
+
+                                            if ($videos_vorhanden) {
+                                                if (is_null($ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_heute'])) $ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_heute'] = '0';
+                                                if (is_null($ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_gestern'])) $ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_gestern'] = '0';
+
+                                                if (($ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_heute'] !== '0' and $ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_gestern'] !== '0') and ($ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_heute'] < $ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_gestern'])) {
+                                                    print '<div class="number__box u-margin-top-0_75rem border--radius u-color-white u-background-color-green">';
+                                                        print '<p class="u-font-size-l u-font-weight-bold">' . null_pruefer($ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_heute']) . '</p>';
+                                                    print '</div>';
+                                                } elseif ($ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_heute'] !== '0' and $ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_gestern'] === '0') {
+                                                    print '<div class="number__box u-margin-top-0_75rem border--radius u-color-white u-background-color-green">';
+                                                        print '<p class="u-font-size-l u-font-weight-bold">' . null_pruefer($ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_heute']) . '</p>';
+                                                    print '</div>';
+                                                } elseif (($ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_heute'] !== '0' and $ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_gestern'] !== '0') and ($ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_heute'] > $ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_gestern'])) {
+                                                    print '<div class="number__box u-margin-top-0_75rem border--radius u-color-white u-background-color-dark-red">';
+                                                        print '<p class="u-font-size-l u-font-weight-bold">' . null_pruefer($ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_heute']) . '</p>';
+                                                    print '</div>';
+                                                } else {
+                                                    print '<div class="number__box u-margin-top-0_75rem border--radius u-color-dark-grey u-background-color-light-grey">';
+                                                        print '<p class="u-font-size-l u-font-weight-bold">' . null_pruefer($ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_heute']) . '</p>';
+                                                    print '</div>';
+                                                }
+                                            } else {
+                                                print '<div class="number__box u-margin-top-0_75rem border--radius u-background-color-light-grey">';
+                                                    print '<p class="u-font-size-l u-font-weight-bold u-color-dark-grey">' . "-" . '</p>';
+                                                print '</div>';
+                                            }
+
+                                        print '</div>';
+
+                                        print '<div class="c-ranking__yesterday">';
+
+                                            print '<p class="u-font-size-l u-color-dark-grey">' . "Yesterday" . '</p>';
+
+                                            if ($videos_vorhanden) {
+                                                print '<div class="number__box u-margin-top-0_75rem border--radius u-color-dark-grey u-background-color-light-grey">';
+                                                    print '<p class="u-font-size-l u-font-weight-bold">' . null_pruefer($ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_gestern']) . '</p>';
+                                                print '</div>';
+                                            } else {
+                                                print '<div class="number__box u-margin-top-0_75rem border--radius u-color-dark-grey u-background-color-light-grey">';
+                                                    print '<p class="u-font-size-l u-font-weight-bold u-color-dark-grey">' . "-" . '</p>';
+                                                print '</div>';
+                                            }
+
+                                        print '</div>';
+
+                                    print '</div>';
+
+                                print '</div>';
+
+                                $current_video++;
+
+                            } while ($current_video < count($video_id_names));
+
+                        print '</div>';
+
+                    }
+
+                print '</div>';
+
+            print '</div>';
+
+        print '</div>';
 
         ?>
-
-        <div id="updaten">
-
-            <p id="last_update">Last Update: <?php echo date("d.m.y H:i", strtotime(last_refresh_abfragen())); ?></p>
-
-            <form action="index.php" method="post" id="home_form">
-                <button type="submit" name="pressed" value="not_empty">Refresh</button><!-- wenn möglich value mit Datum befüllen -->
-            </form>
-
-        </div>
-
-        <?php foreach ($ergebnis_array as $keyword => $videos) { ?>
-
-            <table id="home_table">
-                <tr>
-                    <th id="name"><?php echo $keyword ?></th>
-                    <th id="infos"></th>
-                    <th id="today">Today</th>
-                    <th id="yesterday">Yesterday</th>
-                </tr>
-                <?php $keys = array_keys($videos);
-                if (count($keys) === 0) { // wenn das Keyword keine Videos des Kannals enthält ?>
-                    <tr>
-                        <td>No Ranking</td>
-                        <td></td>
-                        <td class="home_td_center">-</td>
-                        <td class="home_td_center">-</td>
-                    </tr>
-                <?php } else {
-                    foreach ($videos as $video_id => $infos) { ?>
-                        <tr>
-                            <td><img src="<?php echo $infos['thumbnail_url']; ?>"></td>
-                            <td><?php echo $infos['titel'] . '<br>' . '<a href="https://www.youtube.com/watch?v=' . $video_id . '" target="_blank" id="videolink">Link zum Video</a>'; ?></td>
-
-                            <?php
-
-                            if (is_null($infos['ranking_heute'])) $infos['ranking_heute'] = '0';
-                            if (is_null($infos['ranking_gestern'])) $infos['ranking_gestern'] = '0';
-
-                            if (($infos['ranking_heute'] !== '0' AND $infos['ranking_gestern'] !== '0' ) AND ($infos['ranking_heute'] < $infos['ranking_gestern'])) {
-                                ?>
-
-                                <td class="gruen home_td_center"><?php echo null_pruefer($infos['ranking_heute']); ?></td>
-
-                                <?php
-                            } elseif ($infos['ranking_heute'] !== '0' AND $infos['ranking_gestern'] === '0' ) {
-                                ?>
-
-                                <td class="gruen home_td_center"><?php echo null_pruefer($infos['ranking_heute']); ?></td>
-
-                                <?php
-                            } elseif (($infos['ranking_heute'] !== '0' AND $infos['ranking_gestern'] !== '0' ) AND ($infos['ranking_heute'] > $infos['ranking_gestern'])) {
-                                ?>
-
-                                <td class="rot home_td_center"><?php echo null_pruefer($infos['ranking_heute']); ?></td>
-
-                                <?php
-                            } else {
-                                ?>
-
-                                <td class="home_td_center"><?php echo null_pruefer($infos['ranking_heute']); ?></td>
-
-                            <?php
-                                }
-                            ?>
-
-                            <td class="home_td_center"><?php
-                                echo null_pruefer($infos['ranking_gestern']);
-                                ?></td>
-                        </tr>
-                    <?php }
-                } ?>
-            </table>
-
-         <?php } ?>
-
-        </div>
 
     </body>
 
