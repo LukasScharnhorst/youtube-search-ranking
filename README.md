@@ -69,7 +69,7 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen
 
 - Navigation:
 
-![Navigation](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Dokumentation/Bilder/Navigation.png)
+![Navigation](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Bilder/Navigation.png)
 
 - Channel-ID herausfinden:
 
@@ -80,29 +80,29 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen
 
     -> Derzeit werden nur Videos des YouTube-Kanals "The MAUTICAST" gefiltert, egal welche Channel-ID eingegeben wird.
 
-![Channel-ID speichern 1](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Dokumentation/Bilder/Channel-ID_speichern_1.png)
+![Channel-ID speichern 1](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Bilder/Channel-ID_speichern_1.png)
 
-![Channel-ID speichern 2](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Dokumentation/Bilder/Channel-ID_speichern_2.png)
+![Channel-ID speichern 2](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Bilder/Channel-ID_speichern_2.png)
 
 - Keyword hinzufügen:
 
     -> Ein Keyword ist jeder beliebige Suchbegriff, wie man ihn auch auf YouTube eingeben würde, um Videos zu finden und kann auch aus mehreren Wörten bestehen.
 
-![Keyword hinzufügen 1](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Dokumentation/Bilder/Keyword_hinzufuegen_1.png)
+![Keyword hinzufügen 1](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Bilder/Keyword_hinzufuegen_1.png)
 
-![Keyword hinzufügen 2](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Dokumentation/Bilder/Keyword_hinzufuegen_2.png)
+![Keyword hinzufügen 2](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Bilder/Keyword_hinzufuegen_2.png)
 
-![Keyword hinzufügen 3](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Dokumentation/Bilder/Keyword_hinzufuegen_3.png)
+![Keyword hinzufügen 3](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Bilder/Keyword_hinzufuegen_3.png)
 
-![Keyword hinzufügen 4](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Dokumentation/Bilder/Keyword_hinzufuegen_4.png)
+![Keyword hinzufügen 4](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Bilder/Keyword_hinzufuegen_4.png)
 
 - Keyword löschen:
 
-![Keyword löschen](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Dokumentation/Bilder/Keyword_loeschen.png)
+![Keyword löschen](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Bilder/Keyword_loeschen.png)
 
 - Funktionen des Refresh-Buttons, wenn man diesen drückt:
     - Anzeigen von Keywords, welche hinzugefügt wurden. Falls auch Videos zu den neuen Keywords gefunden wurden, werden diese ebenfalls angezeigt.
     - Ausblenden von Keywords, welche gelöscht wurden.  Falls auch Videos zu den gelöschten Keywords vorhanden waren, werden diese ebenfalls ausgeblendet.
     - Aktualisierung des Rankings der Videos (pro Tag einmal).
 
-![Refresh Button](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Dokumentation/Bilder/Refresh-Button.png)
+![Refresh Button](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Bilder/Refresh-Button.png)
