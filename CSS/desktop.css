@@ -1,0 +1,59 @@
+@media (min-width: 1024px) {
+
+
+
+
+
+    /* --- general --- */
+
+    .device--max-width-and-center {
+        max-width: 60rem;
+    }
+
+    /* --- general end --- */
+
+
+
+
+
+    /* --- index.php --- */
+
+    /* --- index.php end --- */
+
+
+
+
+
+    /* --- channel.php --- */
+
+    /* --- channel.php end --- */
+
+
+
+
+
+    /* --- keywords.php --- */
+
+
+
+    /* --- keywords.php --- */
+
+
+
+    /* --- keywords-list --- */
+
+    .c-list__delete-item--word-wrap {
+        max-width: 45rem;
+    }
+
+    /* --- keywords-list end --- */
+
+
+
+    /* --- keywords.php end --- */
+
+
+
+
+
+}

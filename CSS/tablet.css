@@ -1,0 +1,149 @@
+@media (min-width: 768px) {
+
+
+
+
+
+    /* --- general --- */
+
+    .device--max-width-and-center {
+        max-width: 63.9375rem;
+    }
+
+    .site-padding--horizontal {
+
+        padding-right: 7.0625rem;
+        padding-left: 7.0625rem;
+    }
+
+    /* --- general end --- */
+
+
+
+
+
+    /* --- header --- */
+
+    .c-navigation-icon__layout {
+        display: none;
+    }
+
+    .c-navigation__tablet-desktop {
+        display: inline;
+    }
+
+    .c-navigation--text-layout {
+        display: flex;
+    }
+
+    .c-navigation--text-position {
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 1.5rem;
+    }
+
+    /* --- header end --- */
+
+
+
+
+
+    /* --- index.php --- */
+
+
+
+    /* --- refresh --- */
+
+    .c-refresh {
+        display: flex;
+        align-items: center;
+    }
+
+    .c-refresh__button {
+        margin-top: 0;
+    }
+
+    .c-refresh > form > button {
+        margin-top: 0;
+    }
+
+    /* --- refresh end --- */
+
+
+
+    /* --- keyword --- */
+
+    .c-card {
+        display: flex;
+        align-items: center;
+    }
+
+    .c-ranking {
+        margin-top: 0;
+        margin-left: auto;
+        min-width: 11.75rem;
+    }
+
+    .img--center {
+        display: block;
+        margin-right: 1.5rem;
+        margin-bottom: 0;
+    }
+
+    /* --- keyword end --- */
+
+
+
+    /* --- index.php end --- */
+
+
+
+
+
+    /* --- keywords.php --- */
+
+
+
+    /* --- keywords-list --- */
+
+    .c-list__item {
+        display: inline-block;
+    }
+
+    .c-list__delete-item--word-wrap {
+        max-width: 30rem;
+    }
+
+    /* --- keywords-list end --- */
+
+
+
+    /* --- keyword-add overlay --- */
+
+
+    /* --- keyword-add overlay end --- */
+
+
+
+    /* --- keyword-delete overlay --- */
+
+
+    /* --- keyword-delete overlay end --- */
+
+
+
+    /* --- keywords.php end */
+
+
+
+
+
+    /* --- channel.php --- */
+
+    /* --- channel.php end --- */
+
+
+
+
+
+}

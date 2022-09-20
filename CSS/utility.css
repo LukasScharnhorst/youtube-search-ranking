@@ -1,0 +1,223 @@
+.padding--horizontal {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+.padding--vertical {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.display--none {
+    display: none;
+}
+
+.border--radius {
+    border-radius: 0.5rem;
+}
+
+.shadow {
+    box-shadow: 0 0.5rem 1.5rem #00000026;
+}
+
+.link--no-text-decoration {
+    text-decoration: none;
+}
+
+.display--flex {
+    display: flex;
+}
+
+.center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.align--right {
+    margin-left: auto;
+}
+
+
+
+/* -------------- */
+/* --- button --- */
+/* -------------- */
+
+.c-button {
+    padding: calc(0.5rem - 0.125rem) calc(1.5rem - 0.125rem);
+    border: #FF5050 solid 0.125rem;
+    font-size: 1rem;
+    font-weight: 700;
+    background-color: #FF5050;
+    color: #FFFFFF;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.u-border-off {
+    border: none;
+}
+
+/* --- button end --- */
+
+
+
+/* -------------- */
+/* --- margin --- */
+/* -------------- */
+
+.u-margin-top-0_75rem {
+    margin-top: 0.75rem;
+}
+
+.u-margin-bottom-0_75rem {
+    margin-bottom: 0.75rem;
+}
+
+.u-margin-right-0_75rem {
+    margin-right: 0.75rem;
+}
+
+.u-margin-left-0_75rem {
+    margin-left: 0.75rem;
+}
+
+.u-margin-right-1_5rem {
+    margin-right: 1.5rem;
+}
+
+.u-margin-left-1_5rem {
+    margin-left: 1.5rem;
+}
+
+.u-margin-top-2rem {
+    margin-top: 2rem;
+}
+
+.u-margin-bottom-2rem {
+    margin-bottom: 2rem;
+}
+
+.u-margin-top-4rem {
+    margin-top: 4rem;
+}
+
+.u-margin-bottom-4rem {
+    margin-bottom: 4rem;
+}
+
+/* --- margin end --- */
+
+
+
+/* ----------------- */
+/* --- font-size --- */
+/* ----------------- */
+
+.u-font-size-s {
+    font-size: 0.75rem;
+}
+
+.u-font-size-m {
+    font-size: 1rem;
+}
+
+.u-font-size-l {
+    font-size: 1.25rem;
+}
+
+.u-font-size-xl {
+    font-size: 1.5rem;
+}
+
+.u-font-size-xxl {
+    font-size: 1.75rem;
+}
+
+.u-font-size-xxxl {
+    font-size: 2rem;
+}
+
+/* --- font-size end --- */
+
+
+
+/* ------------------- */
+/* --- font-weight --- */
+/* ------------------- */
+
+.u-font-weight-lighter {
+    font-weight: 300;
+}
+
+.u-font-weight-normal {
+    font-weight: 400;
+}
+
+.u-font-weight-bold {
+    font-weight: 700;
+}
+
+/* --- font-weight end --- */
+
+
+
+/* ------------- */
+/* --- color --- */
+/* ------------- */
+
+.u-color-dark-grey {
+    color: #4D4D4D;
+}
+
+.u-color-grey {
+    color: #6E6E6E;
+}
+
+.u-color-red {
+    color: #FF5050;
+}
+
+.u-color-white {
+    color: #FFFFFF;
+}
+
+.u-color-dark-white {
+    color: #00000026;
+}
+
+/* --- color end --- */
+
+
+
+/* ------------------------ */
+/* --- background-color --- */
+/* ------------------------ */
+
+.u-background-color-white {
+    background-color: #FFFFFF;
+}
+
+.u-background-color-light-grey {
+    background-color: #EDEDED;
+}
+
+.u-background-color-green {
+    background-color: #52A31E;
+}
+
+.u-background-color-red {
+    background-color: #FF5050;
+}
+
+.u-background-color-dark-red {
+    background-color: #AA2323;
+}
+
+.u-background-color-dark-grey {
+    background-color: #4D4D4D;
+}
+
+/* --- background-color end --- */
