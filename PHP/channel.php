@@ -118,7 +118,7 @@
 
                     <form action="channel.php" method="post" id="channel_form">
                         <label for="channel_id" class="u-font-size-l u-color-dark-grey">ID of Channel</label><br>
-                        <input type="text" name="channel_id" class="channel__text-field u-font-size-xxxl" id="channel_id" required><br>
+                        <input type="text" name="channel_id" class="channel__text-field u-font-size-xxxl u-set-font-family" id="channel_id" required><br>
                         <div class="u-display-flex">
                             <button type="submit" class="c-button u-align-right">Save</button>
                         </div>

@@ -229,7 +229,7 @@
                     <div class="c-list__item-add__overlay u-display-none u-background-color-white" id="overlay">
                         <form action="keywords.php" method="post">
                             <label for="keywords" class="u-font-size-l u-color-dark-grey">List of Keywords to add</label><br>
-                            <textarea name="keywords_speichern" class="keywords__text-field u-margin-top-0_75rem u-font-size-l u-font-weight-bold" required></textarea>
+                            <textarea name="keywords_speichern" class="keywords__text-field u-margin-top-0_75rem u-font-size-l u-font-weight-bold u-set-font-family" required></textarea>
                             <p class="u-margin-top-0_75rem u-margin-bottom-2rem u-font-size-m u-color-grey">Comma to separate list of multiple keywords</p>
                             <button type="reset" onclick="off_overlay()" class="c-button u-background-color-white u-color-red u-margin-right-1_5rem">Cancel</button>
                             <button type="submit" class="c-button">Save</button>
