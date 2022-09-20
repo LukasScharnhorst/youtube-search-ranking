@@ -35,7 +35,7 @@
     margin-bottom: 0.875rem;
 }
 
-.c-navigation-icon__layout {
+.c-navigation-icon {
     height: 1.5rem;
     display: flex;
     flex-direction: column;
@@ -81,17 +81,17 @@ body.overflow-hidden {
     overflow: hidden;
 }
 
-.c-navigation-icon__layout.is-active .line:nth-child(2) {
+.c-navigation-icon.is-active .line:nth-child(2) {
     opacity: 0;
 }
 
-.c-navigation-icon__layout.is-active .line:nth-child(1)  {
+.c-navigation-icon.is-active .line:nth-child(1)  {
     transform: rotate(45deg);
     position: relative;
     top: 0.625rem;
 }
 
-.c-navigation-icon__layout.is-active .line:nth-child(3) {
+.c-navigation-icon.is-active .line:nth-child(3) {
     transform: rotate(-45deg);
     position: relative;
     bottom: 0.625rem;

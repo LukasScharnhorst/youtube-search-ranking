@@ -122,7 +122,7 @@
 
     <body class="u-background-color-white" data-menu="overflow-hidden">
 
-        <div class="c-header u-background-color-white site-padding--horizontal shadow">
+        <div class="c-header u-background-color-white site-padding--horizontal u-shadow">
 
             <div class="device--max-width-and-center">
 
@@ -132,7 +132,7 @@
                         <span class="u-color-red">YT</span><span class="u-color-dark-grey u-font-weight-lighter"> Rankings</span>
                     </p>
 
-                    <button class="u-border-off u-background-color-white c-navigation-icon__layout" data-menu="button">
+                    <button class="u-border-off u-background-color-white c-navigation-icon" data-menu="button">
                         <div class="line u-background-color-dark-grey"></div>
                         <div class="line u-background-color-dark-grey"></div>
                         <div class="line u-background-color-dark-grey"></div>
