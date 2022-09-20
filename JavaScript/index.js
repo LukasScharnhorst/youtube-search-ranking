@@ -55,13 +55,3 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 
 });
-
-/*document.addEventListener("DOMContentLoaded", function() {
-
-    let page = document.querySelector('[data-menu="current-page"]');
-
-    page.addEventListener('click', () => {
-        page.classList.toggle('color-red');
-    });
-
-});*/

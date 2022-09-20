@@ -112,11 +112,15 @@ button:hover {
 
 
 
-/**/
+/* ------------------- */
+/* --- font-family --- */
+/* ------------------- */
 
 .u-set-font-family {
     font-family: Poppins, Helvetica, sans-serif;
 }
+
+/* font-family end */
 
 
 

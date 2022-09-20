@@ -273,13 +273,13 @@
 <html lang="de">
 
     <head>
+        <!--<link rel="stylesheet" href="https://unpkg.com/sanitize.css" type="text/css">-->
         <link rel="stylesheet" href="CSS/fonts.css" type="text/css">
         <link rel="stylesheet" href="CSS/style.css" type="text/css">
         <link rel="stylesheet" href="CSS/default_mobile.css" type="text/css">
         <link rel="stylesheet" href="CSS/tablet.css" type="text/css">
         <link rel="stylesheet" href="CSS/desktop.css" type="text/css">
         <link rel="stylesheet" href="CSS/utility.css" type="text/css">
-        <!--<link rel="stylesheet" href="https://unpkg.com/sanitize.css" type="text/css">-->
         <script type="text/javascript" src="JavaScript/index.js"></script>
         <title>Home</title>
     </head>
