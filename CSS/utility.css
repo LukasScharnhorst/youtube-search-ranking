@@ -1,18 +1,18 @@
-.padding--horizontal {
+.u-padding-horizontal {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
 }
 
-.padding--vertical {
+.u-padding-vertical {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
 }
 
-.display--none {
+.u-display-none {
     display: none;
 }
 
-.border--radius {
+.u-border-radius {
     border-radius: 0.5rem;
 }
 
@@ -20,20 +20,20 @@
     box-shadow: 0 0.5rem 1.5rem #00000026;
 }
 
-.link--no-text-decoration {
+.u-link-no-text-decoration {
     text-decoration: none;
 }
 
-.display--flex {
+.u-display-flex {
     display: flex;
 }
 
-.center {
+.u-center {
     margin-right: auto;
     margin-left: auto;
 }
 
-.align--right {
+.u-align-right {
     margin-left: auto;
 }
 

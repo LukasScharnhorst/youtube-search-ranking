@@ -141,13 +141,13 @@
                     <div class="c-navigation__tablet-desktop">
                         <ul class="c-navigation--text-styling c-navigation--text-layout u-font-size-l">
                             <li class="c-navigation--text-position">
-                                <a href="../index.php" class=" link--no-text-decoration u-color-dark-grey">Home</a>
+                                <a href="../index.php" class="u-link-no-text-decoration u-color-dark-grey">Home</a>
                             </li>
                             <li class="c-navigation--text-position">
-                                <a href="keywords.php" class="link--no-text-decoration u-color-red">Keywords</a>
+                                <a href="keywords.php" class="u-link-no-text-decoration u-color-red">Keywords</a>
                             </li>
                             <li class="c-navigation--text-position">
-                                <a href="channel.php" class="link--no-text-decoration u-color-dark-grey">Channel</a>
+                                <a href="channel.php" class="u-link-no-text-decoration u-color-dark-grey">Channel</a>
                             </li>
                         </ul>
                     </div>
@@ -163,13 +163,13 @@
             <div class="c-navigation__mobile" data-menu="menu">
                 <ul class="c-navigation--text-styling c-navigation--text-layout u-font-size-xxxl">
                     <li class="c-navigation--text-position">
-                        <a href="../index.php" class="link--no-text-decoration u-color-dark-grey">Home</a>
+                        <a href="../index.php" class="u-link-no-text-decoration u-color-dark-grey">Home</a>
                     </li>
                     <li class="c-navigation--text-position">
-                        <a href="keywords.php" class="link--no-text-decoration u-color-red">Keywords</a>
+                        <a href="keywords.php" class="u-link-no-text-decoration u-color-red">Keywords</a>
                     </li>
                     <li class="c-navigation--text-position">
-                        <a href="channel.php" class="link--no-text-decoration u-color-dark-grey">Channel</a>
+                        <a href="channel.php" class="u-link-no-text-decoration u-color-dark-grey">Channel</a>
                     </li>
                 </ul>
             </div>
@@ -226,7 +226,7 @@
 
                     <button class="c-button u-margin-top-2rem" onclick="on_overlay()">Add Keywords</button>
 
-                    <div class="c-list__item-add__overlay display--none u-background-color-white" id="overlay">
+                    <div class="c-list__item-add__overlay u-display-none u-background-color-white" id="overlay">
                         <form action="keywords.php" method="post">
                             <label for="keywords" class="u-font-size-l u-color-dark-grey">List of Keywords to add</label><br>
                             <textarea name="keywords_speichern" class="keywords__text-field u-margin-top-0_75rem u-font-size-l u-font-weight-bold" required></textarea>
@@ -236,7 +236,7 @@
                         </form>
                     </div>
 
-                    <div class="c-list__item-delete__overlay display--none u-background-color-white" id="hinweis">
+                    <div class="c-list__item-delete__overlay u-display-none u-background-color-white" id="hinweis">
                         <form action="keywords.php" method="post">
                             <div id="popup">
                             </div>

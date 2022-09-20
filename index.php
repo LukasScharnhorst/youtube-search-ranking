@@ -305,13 +305,13 @@
                     <div class="c-navigation__tablet-desktop">
                         <ul class="c-navigation--text-styling c-navigation--text-layout u-font-size-l">
                             <li class="c-navigation--text-position">
-                                <a href="index.php" class=" link--no-text-decoration u-color-red">Home</a>
+                                <a href="index.php" class="u-link-no-text-decoration u-color-red">Home</a>
                             </li>
                             <li class="c-navigation--text-position">
-                                <a href="PHP/keywords.php" class="link--no-text-decoration u-color-dark-grey">Keywords</a>
+                                <a href="PHP/keywords.php" class="u-link-no-text-decoration u-color-dark-grey">Keywords</a>
                             </li>
                             <li class="c-navigation--text-position">
-                                <a href="PHP/channel.php" class="link--no-text-decoration u-color-dark-grey">Channel</a>
+                                <a href="PHP/channel.php" class="u-link-no-text-decoration u-color-dark-grey">Channel</a>
                             </li>
                         </ul>
                     </div>
@@ -327,13 +327,13 @@
             <div class="c-navigation__mobile" data-menu="menu">
                 <ul class="c-navigation--text-styling c-navigation--text-layout u-font-size-xxxl">
                     <li class="c-navigation--text-position">
-                        <a href="index.php" class="link--no-text-decoration u-color-red">Home</a>
+                        <a href="index.php" class="u-link-no-text-decoration u-color-red">Home</a>
                     </li>
                     <li class="c-navigation--text-position">
-                        <a href="PHP/keywords.php" class="link--no-text-decoration u-color-dark-grey">Keywords</a>
+                        <a href="PHP/keywords.php" class="u-link-no-text-decoration u-color-dark-grey">Keywords</a>
                     </li>
                     <li class="c-navigation--text-position">
-                        <a href="PHP/channel.php" class="link--no-text-decoration u-color-dark-grey">Channel</a>
+                        <a href="PHP/channel.php" class="u-link-no-text-decoration u-color-dark-grey">Channel</a>
                     </li>
                 </ul>
             </div>
@@ -354,7 +354,7 @@
                     print '<div class="c-refresh">';
                         print '<p class="u-margin-right-1_5rem u-font-size-xl u-font-weight-bold u-color-dark-grey">Last Update: </p>';
                         print '<p class="u-margin-right-1_5rem u-font-size-l u-color-dark-grey">' . date("d.m.y H:i", strtotime(last_refresh_abfragen())) . '</p>';
-                        print '<form action="index.php" method="post" class="align--right" id="home_form">';
+                        print '<form action="index.php" method="post" class="u-align-right" id="home_form">';
                             print '<button class="c-button u-margin-top-0_75rem" type="submit" name="pressed" value="not_empty">Refresh</button>';
                         print '</form>';
                     print '</div>';
@@ -379,7 +379,7 @@
 
                             do {
 
-                                print '<div class="c-card u-margin-bottom-2rem border--radius u-shadow padding--vertical padding--horizontal">';
+                                print '<div class="c-card u-margin-bottom-2rem u-border-radius u-shadow u-padding-vertical u-padding-horizontal">';
 
                                     if ($videos_vorhanden) {
                                         print '<div class="img--center">';
@@ -404,24 +404,24 @@
                                                 if (is_null($ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_gestern'])) $ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_gestern'] = '0';
 
                                                 if (($ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_heute'] !== '0' and $ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_gestern'] !== '0') and ($ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_heute'] < $ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_gestern'])) {
-                                                    print '<div class="number__box u-margin-top-0_75rem border--radius u-color-white u-background-color-green">';
+                                                    print '<div class="number__box u-margin-top-0_75rem u-border-radius u-color-white u-background-color-green">';
                                                         print '<p class="u-font-size-l u-font-weight-bold">' . null_pruefer($ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_heute']) . '</p>';
                                                     print '</div>';
                                                 } elseif ($ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_heute'] !== '0' and $ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_gestern'] === '0') {
-                                                    print '<div class="number__box u-margin-top-0_75rem border--radius u-color-white u-background-color-green">';
+                                                    print '<div class="number__box u-margin-top-0_75rem u-border-radius u-color-white u-background-color-green">';
                                                         print '<p class="u-font-size-l u-font-weight-bold">' . null_pruefer($ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_heute']) . '</p>';
                                                     print '</div>';
                                                 } elseif (($ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_heute'] !== '0' and $ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_gestern'] !== '0') and ($ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_heute'] > $ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_gestern'])) {
-                                                    print '<div class="number__box u-margin-top-0_75rem border--radius u-color-white u-background-color-dark-red">';
+                                                    print '<div class="number__box u-margin-top-0_75rem u-border-radius u-color-white u-background-color-dark-red">';
                                                         print '<p class="u-font-size-l u-font-weight-bold">' . null_pruefer($ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_heute']) . '</p>';
                                                     print '</div>';
                                                 } else {
-                                                    print '<div class="number__box u-margin-top-0_75rem border--radius u-color-dark-grey u-background-color-light-grey">';
+                                                    print '<div class="number__box u-margin-top-0_75rem u-border-radius u-color-dark-grey u-background-color-light-grey">';
                                                         print '<p class="u-font-size-l u-font-weight-bold">' . null_pruefer($ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_heute']) . '</p>';
                                                     print '</div>';
                                                 }
                                             } else {
-                                                print '<div class="number__box u-margin-top-0_75rem border--radius u-background-color-light-grey">';
+                                                print '<div class="number__box u-margin-top-0_75rem u-border-radius u-background-color-light-grey">';
                                                     print '<p class="u-font-size-l u-font-weight-bold u-color-dark-grey">' . "-" . '</p>';
                                                 print '</div>';
                                             }
@@ -433,11 +433,11 @@
                                             print '<p class="u-font-size-l u-color-dark-grey">' . "Yesterday" . '</p>';
 
                                             if ($videos_vorhanden) {
-                                                print '<div class="number__box u-margin-top-0_75rem border--radius u-color-dark-grey u-background-color-light-grey">';
+                                                print '<div class="number__box u-margin-top-0_75rem u-border-radius u-color-dark-grey u-background-color-light-grey">';
                                                     print '<p class="u-font-size-l u-font-weight-bold">' . null_pruefer($ergebnis_array[$keyword_names[$i]][$video_id_names[$current_video]]['ranking_gestern']) . '</p>';
                                                 print '</div>';
                                             } else {
-                                                print '<div class="number__box u-margin-top-0_75rem border--radius u-color-dark-grey u-background-color-light-grey">';
+                                                print '<div class="number__box u-margin-top-0_75rem u-border-radius u-color-dark-grey u-background-color-light-grey">';
                                                     print '<p class="u-font-size-l u-font-weight-bold u-color-dark-grey">' . "-" . '</p>';
                                                 print '</div>';
                                             }
