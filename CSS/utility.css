@@ -28,11 +28,6 @@
     display: flex;
 }
 
-.u-center {
-    margin-right: auto;
-    margin-left: auto;
-}
-
 .u-align-right {
     margin-left: auto;
 }
