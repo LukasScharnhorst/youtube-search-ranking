@@ -1,6 +1,8 @@
+/* --------------- */
 /* --- general --- */
+/* --------------- */
 
-.device--max-width-and-center {
+.device-container {
     max-width: 47.9375rem;
     position: relative;
     margin-right: auto;
@@ -18,7 +20,9 @@
 
 
 
+/* -------------- */
 /* --- header --- */
+/* -------------- */
 
 .c-header {
     position: fixed;
@@ -75,7 +79,9 @@
 
 
 
+/* ----------------------------------------- */
 /* --- navigation-icon-button is clicked --- */
+/* ----------------------------------------- */
 
 body.overflow-hidden {
     overflow: hidden;
@@ -116,7 +122,9 @@ body.overflow-hidden {
 
 
 
+/* --------------- */
 /* --- content --- */
+/* --------------- */
 
 .c-content {
     z-index: -10;
@@ -133,8 +141,9 @@ body.overflow-hidden {
 
 
 
-
+/* ----------------- */
 /* --- index.php --- */
+/* ----------------- */
 
 
 
@@ -199,7 +208,9 @@ body.overflow-hidden {
 
 
 
+/* -------------------- */
 /* --- keywords.php --- */
+/* -------------------- */
 
 
 
@@ -306,7 +317,9 @@ body.overflow-hidden {
 
 
 
+/* ------------------- */
 /* --- channel.php --- */
+/* ------------------- */
 
 .channel__text-field {
     width: 100%;

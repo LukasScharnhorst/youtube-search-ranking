@@ -56,7 +56,7 @@
 
         <div class="c-header u-background-color-white site-padding--horizontal u-shadow">
 
-            <div class="device--max-width-and-center">
+            <div class="device-container">
 
                 <div class="c-header__layout">
 
@@ -90,7 +90,7 @@
 
         </div>
 
-        <div class="device--max-width-and-center">
+        <div class="device-container">
 
             <div class="c-navigation__mobile" data-menu="menu">
                 <ul class="c-navigation--text-styling c-navigation--text-layout u-font-size-xxxl">
@@ -112,7 +112,7 @@
 
         <div class="c-content site-padding--horizontal">
 
-            <div class="device--max-width-and-center">
+            <div class="device-container">
 
                 <div class="c-content__layout">
 
