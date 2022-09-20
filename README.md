@@ -75,6 +75,8 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen
 
 ![Navigation_mobile_Anwendungen_oeffnen](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Bilder/Navigation_mobile_Anwendungen_oeffnen.png)
 
+![Navigation_mobile_Anwendungen](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Bilder/Navigation_mobile_Anwendungen.png)
+
 - Channel-ID herausfinden:
 
 1. Auf YouTube den gewünschten Kanal aufrufen
