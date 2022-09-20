@@ -202,7 +202,7 @@
 
                         ?>
 
-                                <div class="c-list__item border--radius u-background-color-light-grey" data-menu="keyword-text">
+                                <div class="c-list__item u-border-radius u-background-color-light-grey" data-menu="keyword-text">
 
 
                                     <div class="c-list__delete-item">
