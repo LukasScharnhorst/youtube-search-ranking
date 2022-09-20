@@ -67,9 +67,15 @@ Für einen Kanal werden alle seine Videos aufgelistet, welche zu den angegebenen
 
 ## 4. Bedienung
 
-- Navigation:
+- Navigation für Tablet und Desktop:
 
-![Navigation](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Bilder/Navigation.png)
+![Navigation_Tablet_Desktop](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Bilder/Navigation_Tablet_Desktop.png)
+
+- Navigation für mobile Anwendungen:
+
+![Navigation_mobile_Anwendungen_oeffnen](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Bilder/Navigation_mobile_Anwendungen_oeffnen.png)
+
+![Navigation_mobile_Anwendungen](https://github.com/LukasScharnhorst/youtube-search-ranking/blob/main/Bilder/Navigation_mobile_Anwendungen.png)
 
 - Channel-ID herausfinden:
 
